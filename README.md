@@ -1,23 +1,35 @@
 # desafio-capgemini
 
-Desafio de programação desenvolvido durante o processo seletivo da Academia Técnica Capgemini 2022.
+Desafio de programação desenvolvido durante o processo seletivo da **Academia Técnica Capgemini 2022**.
 
-## Questão 01
+---
 
-O arquivo da questão 01 é o [Password.java](src\main\java\desafio\Password.java)
+#### Questão 01
 
-## Questão 02
+O arquivo da questão 01 é o [Stair.java](src\main\java\desafio\Stair.java)
 
-O arquivo da questão 02 é o [Stair.java](src\main\java\desafio\Stair.java)
+#### Questão 02
 
-## Questão 03
+O arquivo da questão 02 é o [Password.java](src\main\java\desafio\Password.java)
 
-Não consegui resolver a questão 03.
+#### Questão 03
 
-## Testes unitários
+Não compreendi os requisitos da questão 03.
 
-A classe de execução é a classe [Application.java](src\main\java\desafio\Application.java). O programa pode ser testado executando o arquivo [desafio-capgemini.jar](out\artifacts\desafio_capgemini_jar\desafio-capgemini.jar) com o comando:
+#### Testes unitários
+
+Os testes unitários das questões 01 e 02 são respectivamente [StairTest.java](src\test\java\io\github\marcoantoniossilva\questao01\StairTest.java) e [PasswordTest.java](src\test\java\io\github\marcoantoniossilva\questao02\PasswordTest.java), foram feitos com a biblioteca JUnit 4.13.1.
+
+#### Executando a aplicação:
+
+1 - Para compilar o projeto e gerar o arquivo .jar executável:
+
+```Maven
+mvn clean install
+```
+
+2 - Para executar o projeto:
 
 ```Bash
-java -jar desafio-capgemini.jar
+java -jar target/desafio-capgemini-1.0-SNAPSHOT.jar
 ```
