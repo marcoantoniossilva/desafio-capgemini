@@ -1,4 +1,4 @@
-package desafio;
+package io.github.marcoantoniossilva.questao02;
 
 public class Password {
 

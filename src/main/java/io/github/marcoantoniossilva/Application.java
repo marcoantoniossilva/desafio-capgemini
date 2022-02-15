@@ -1,4 +1,7 @@
-package desafio;
+package io.github.marcoantoniossilva;
+
+import io.github.marcoantoniossilva.questao01.Stair;
+import io.github.marcoantoniossilva.questao02.Password;
 
 import java.util.Scanner;
 
