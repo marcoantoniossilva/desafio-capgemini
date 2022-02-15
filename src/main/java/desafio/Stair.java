@@ -3,7 +3,7 @@ package desafio;
 public class Stair {
 
   public String mountStair(int stepsCount) {
-    String stair = "";
+    StringBuilder stair = new StringBuilder();
     String asterisk = "*";
     String emptySpace = " ";
 
@@ -11,8 +11,8 @@ public class Stair {
       int numberOfEmptySpaces = stepsCount - counterAsc;
       String emptySpaces = emptySpace.repeat(numberOfEmptySpaces);
       String asterisks = asterisk.repeat(counterAsc);
-      stair += emptySpaces.concat(asterisks) + "\n";
+      stair.append(emptySpaces).append(asterisks).append("\n");
     }
-    return stair;
+    return stair.toString();
   }
 }
