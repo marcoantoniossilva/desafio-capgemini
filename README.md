@@ -1,6 +1,6 @@
 # desafio-capgemini
 
-Desafio de programação desenvolvido durante o processo seletivo da **Academia Técnica Capgemini 2022**.
+Desafio de programação utilizando [Java](https://github.com/topics/java) e [Maven](https://github.com/topics/maven) desenvolvido durante o processo seletivo da **Academia Técnica Capgemini 2022**.
 
 ---
 
