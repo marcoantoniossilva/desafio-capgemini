@@ -6,11 +6,11 @@ Desafio de programação desenvolvido durante o processo seletivo da **Academia 
 
 #### Questão 01
 
-O arquivo da questão 01 é o [Stair.java](src\main\java\desafio\Stair.java)
+O arquivo da questão 01 é o [Stair.java](src/main/java/io/github/marcoantoniossilva/questao01/Stair.java)
 
 #### Questão 02
 
-O arquivo da questão 02 é o [Password.java](src\main\java\desafio\Password.java)
+O arquivo da questão 02 é o [Password.java](src/main/java/io/github/marcoantoniossilva/questao02/Password.java)
 
 #### Questão 03
 
@@ -18,7 +18,7 @@ Não compreendi os requisitos da questão 03.
 
 #### Testes unitários
 
-Os testes unitários das questões 01 e 02 são respectivamente [StairMounterTest.java](src\test\java\io\github\marcoantoniossilva\questao01\StairMounterTest.java) e [PasswordCheckerTest.java](src\test\java\io\github\marcoantoniossilva\questao02\PasswordCheckerTest.java), foram feitos com a biblioteca JUnit 4.13.1.
+Os testes unitários das questões 01 e 02 são respectivamente [StairMounterTest.java](src/test/java/io/github/marcoantoniossilva/questao01/StairMounterTest.java) e [PasswordCheckerTest.java](src/test/java/io/github/marcoantoniossilva/questao02/PasswordCheckerTest.java), foram feitos com a biblioteca JUnit 4.13.1.
 
 #### Executando a aplicação:
 
