@@ -18,7 +18,7 @@ Não compreendi os requisitos da questão 03.
 
 #### Testes unitários
 
-Os testes unitários das questões 01 e 02 são respectivamente [StairTest.java](src\test\java\io\github\marcoantoniossilva\questao01\StairTest.java) e [PasswordTest.java](src\test\java\io\github\marcoantoniossilva\questao02\PasswordTest.java), foram feitos com a biblioteca JUnit 4.13.1.
+Os testes unitários das questões 01 e 02 são respectivamente [StairMounterTest.java](src\test\java\io\github\marcoantoniossilva\questao01\StairMounterTest.java) e [PasswordCheckerTest.java](src\test\java\io\github\marcoantoniossilva\questao02\PasswordCheckerTest.java), foram feitos com a biblioteca JUnit 4.13.1.
 
 #### Executando a aplicação:
 
@@ -28,7 +28,13 @@ Os testes unitários das questões 01 e 02 são respectivamente [StairTest.java]
 mvn clean install
 ```
 
-2 - Para executar o projeto:
+2 - Para executar os testes unitários:
+
+```Maven
+mvn clean test
+```
+
+3 - Para executar o projeto:
 
 ```Bash
 java -jar target/desafio-capgemini-1.0-SNAPSHOT.jar
